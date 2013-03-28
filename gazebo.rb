@@ -11,6 +11,8 @@ class Gazebo < Formula
   depends_on 'freeimage'
   depends_on 'libtar'
   depends_on 'ogre'
+  depends_on 'protobuf'
+  depends_on 'protobuf-c'
   depends_on 'qt'
   depends_on 'tbb'
   depends_on 'tinyxml'
