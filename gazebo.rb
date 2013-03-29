@@ -11,6 +11,7 @@ class Gazebo < Formula
   depends_on 'freeimage'
   depends_on 'libtar'
   depends_on 'ogre'
+  depends_on 'pkg-config' => :build
   depends_on 'protobuf'
   depends_on 'protobuf-c'
   depends_on 'qt'
