@@ -23,7 +23,7 @@ class Gazebo < Formula
     ENV.m64
 
     cmake_args = [
-      "-DCMAKE_RELEASE_TYPE='Release'"
+      "-DCMAKE_BUILD_TYPE='Release'"
     ]
     cmake_args.concat(std_cmake_args)
     cmake_args << ".."
