@@ -23,9 +23,12 @@ class Gazebo < Formula
     ENV.m64
 
     cmake_args = [
-      "-DCMAKE_BUILD_TYPE='Release'"
+      "-DCMAKE_BUILD_TYPE='Release'",
+      "-DCMAKE_INSTALL_PREFIX=/usr/local/Cellar/gazebo/1.5.0",
+      "-DCMAKE_FIND_FRAMEWORK=LAST",
+      "-Wno-dev"
     ]
-    cmake_args.concat(std_cmake_args)
+    #cmake_args.concat(std_cmake_args)
     cmake_args << ".."
 
     mkdir "build" do
