@@ -20,7 +20,15 @@ class Gazebo < Formula
   depends_on 'bullet' => :optional
 
   def install
-    system "cmake", ".", *std_cmake_args
-    system "make install" # if this fails, try separate make/make install steps
+    ENV.m64
+
+    cmake_args = [
+      "-DCMAKE_RELEASE_TYPE='Release'"
+    ]
+
+    mkdir "build" do
+      system "cmake", "..", *std_cmake_args
+      system "make install"
+    end
   end
 end
