@@ -25,9 +25,11 @@ class Gazebo < Formula
     cmake_args = [
       "-DCMAKE_RELEASE_TYPE='Release'"
     ]
+    cmake_args.concat(std_cmake_args)
+    cmake_args << ".."
 
     mkdir "build" do
-      system "cmake", "..", *std_cmake_args
+      system "cmake", *cmake_args
       system "make install"
     end
   end
