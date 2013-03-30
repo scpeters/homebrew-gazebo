@@ -4,6 +4,7 @@ class Gazebo < Formula
   homepage 'http://gazebosim.org'
   url 'http://bitbucket.org/osrf/gazebo/get/6c49d88a32fbdbf0fd3fc9b5aa15ecf7efff13ba.tar.bz2'
   sha1 '11ff8dbd5136167b828657fddfc19f4c7e8ebb24'
+  version '1.6.0'
 
   depends_on 'boost'
   depends_on 'cmake'  => :build
