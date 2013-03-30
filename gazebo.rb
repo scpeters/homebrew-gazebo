@@ -26,7 +26,7 @@ class Gazebo < Formula
 
     cmake_args = [
       "-DCMAKE_BUILD_TYPE='Release'",
-      "-DCMAKE_INSTALL_PREFIX=/usr/local/Cellar/gazebo/1.5.0",
+      "-DCMAKE_INSTALL_PREFIX='#{prefix}'",
       "-DCMAKE_FIND_FRAMEWORK=LAST",
       "-Wno-dev"
     ]
