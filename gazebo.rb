@@ -19,7 +19,7 @@ class Gazebo < Formula
   depends_on 'tbb'
   depends_on 'tinyxml'
 
-  depends_on 'bullet' => [:optional, 'shared', 'build-demo']
+  depends_on 'bullet' => [:optional, 'shared']
 
   def install
     ENV.m64
