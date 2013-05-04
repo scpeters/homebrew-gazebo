@@ -2,8 +2,8 @@ require 'formula'
 
 class Gazebo < Formula
   homepage 'http://gazebosim.org'
-  url 'http://bitbucket.org/osrf/gazebo/get/b4cd9bcbc15996987db99e4702808f9f02218c6d.tar.bz2'
-  sha1 '88c0df2f342987c7cb57e538ad447b97024147b9'
+  url 'http://bitbucket.org/osrf/gazebo/get/e98d32e20b0043f0cf09f91d55ab2062c24832ce.tar.bz2'
+  sha1 '37002444e4c17e99a112589fe5ecb4cfe83ff753'
   version '1.8.0'
 
   depends_on 'boost'
