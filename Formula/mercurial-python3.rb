@@ -3,8 +3,8 @@
 class MercurialPython3 < Formula
   desc "Scalable distributed version control system"
   homepage "https://mercurial-scm.org/"
-  url "https://www.mercurial-scm.org/release/mercurial-5.0.tar.gz"
-  sha256 "54ec76a0138d9b883873cfb2c651380659cd24aa99d92f8816982c6d0edd712a"
+  url "https://www.mercurial-scm.org/release/mercurial-5.0.2.tar.gz"
+  sha256 "29b850792f1f054cece5b8de8e815dbbe266e1d11814c3755290c0879883c0f8"
 
   depends_on "python"
 
